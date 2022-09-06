@@ -3,11 +3,11 @@ variable "region" {
 }
 
 variable "instance_type" {
-  #default = "t2.micro"
-  default = "t3.micro"
+  default = "t2.micro"
+  
 }
 
 variable "subnet_id" {
-    default = "subnet-0d1bca7414cc05a87"
+    default = "subnet-0a6f3111d8ac08cb4"
 }
 
